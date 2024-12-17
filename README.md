@@ -14,7 +14,7 @@ Zed Editor is a high-performance, collaborative, and minimal text editor optimiz
 ## 📦 Download / Installation
 
 Simply download the **[zed.exe](https://github.com/Julian-Bruyers/zed/raw/refs/heads/main/zed.exe)** from the repository and copy it to your desired location. The `config` folder contains my personal config/keybindings. The `themes` folder contains
-a collection of my personal favorite themes for Zed. Credits and the author can be found within the `*.json`files themselves.
+a collection of my personal favorite themes for Zed. Credits and the author can be found within the `*.json` files themselves.
 <br></br>
 
 ## 🔗 Resources

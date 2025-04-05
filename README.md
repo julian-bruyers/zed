@@ -1,10 +1,10 @@
-# Zed Portable Windows Build 
+# Zed Portable Windows Build
 **Portable Windows Build of the Modern Zed Editor (unofficial build for personal use)**
 <br></br>
 
 ## 📋 About
 
-This repository provides a **portable Windows version** of the modern [Zed](https://zed.dev) editor developed by [Zed Industries](https://github.com/zed-industries/zed). 
+This repository provides a **portable Windows version** of the modern [Zed](https://zed.dev) editor developed by [Zed Industries](https://github.com/zed-industries/zed).
 
 The goal is to offer a convenient, **portable binary** that can be used without the need for installation.
 
@@ -13,7 +13,7 @@ Zed Editor is a high-performance, collaborative, and minimal text editor optimiz
 
 ## 📦 Download / Installation
 
-Simply download the **[zed.exe](https://github.com/Julian-Bruyers/zed/raw/refs/heads/main/zed.exe)** from the repository and copy it to your desired location. The `config` folder contains my personal config/keybindings. The `themes` folder contains
+Simply download the **[zed.exe](https://github.com/Julian-Bruyers/zed/releases)** from the latest release and copy it to your desired location. The `config` folder contains my personal config/keybindings. The `themes` folder contains
 a collection of my personal favorite themes for Zed. Credits and the author can be found within the `*.json` files themselves.
 <br></br>
 

@@ -8,23 +8,45 @@
   {
     "context": "Workspace",
     "bindings": {
-      // Open the finder
+      // Open the file finder
       "shift shift": "file_finder::Toggle",
 
-      // Toggle Terminal in Bottom Dock
+      //Toggle Terminal in Bottom Dock
       "ctrl ctrl": "workspace::ToggleBottomDock"
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-d": "editor::DuplicateLineDown"
+      // Duplicate Line (down)
+      "ctrl-d": "editor::DuplicateLineDown",
+
+      // Delete current line
+      "ctrl-l": "editor::DeleteToEndOfLine",
+
+      // Delete next word
+      "ctrl-k": "editor::DeleteToNextWordEnd",
+
+      // Go to beginning of line
+      "ctrl-alt-left": "editor::MoveToBeginningOfLine",
+
+      // Go to end of line
+      "ctrl-alt-right": "editor::MoveToEndOfLine",
+
+      // Go to beginning of document
+      "ctrl-alt-up": "editor::MoveToBeginning",
+
+      // Go to end of document
+      "ctrl-alt-down": "editor::MoveToEnd",
+
+      // Move to enclosing bracket or ""
+      "ctrl-alt-/": "editor::MoveToEnclosingBracket"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      // Clear the Terminal
+      // Clear the terminal
       "ctrl-l": "terminal::Clear"
     }
   }

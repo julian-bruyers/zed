@@ -5,6 +5,13 @@
 //-----------------------------------------------------------//
 
 {
+  // On Windows use the CMD instead of the PowerShell
+  //"terminal": {
+  //  "shell": {
+  //    "program": "C:\\Windows\\System32\\cmd.exe"
+  //  },
+  //},
+
   // Default theme (the WBTC theme must be installed)
   "theme": "One Dark",
 
@@ -76,7 +83,8 @@
 
   // Enable the AI assistant
   "assistant": {
-    "enabled": true, "version": "2"
+    "enabled": true,
+    "version": "2"
   },
 
   // Settings for calls within Zed

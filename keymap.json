@@ -1,27 +1,30 @@
-// Zed keymap
-//
-// For information on binding keys, see the Zed
-// documentation: https://zed.dev/docs/key-bindings
-//
-// To see the default key bindings run `zed: open default keymap`
-// from the command palette.
+//-----------------------------------------------------------//
+//           Julian Bruyers – Personal Key Bindings          //
+//                                                           //
+// Further information: https://zed.dev/docs/key-bindings    //
+//-----------------------------------------------------------//
+
 [
   {
     "context": "Workspace",
     "bindings": {
+      // Open the finder
       "shift shift": "file_finder::Toggle",
 
-      //Toggle Terminal in Bottom Dock
+      // Toggle Terminal in Bottom Dock
       "ctrl ctrl": "workspace::ToggleBottomDock"
     }
   },
   {
     "context": "Editor",
-    "bindings": {}
+    "bindings": {
+      "ctrl-d": "editor::DuplicateLineDown"
+    }
   },
   {
     "context": "Terminal",
     "bindings": {
+      // Clear the Terminal
       "ctrl-l": "terminal::Clear"
     }
   }

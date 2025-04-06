@@ -2,7 +2,16 @@
 *.xml
 *.iml
 .vscode
+.idea
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
 
 # Disable git tracking for the Zed development_credentials file in the Zed config directory
 development_credentials
+
+# Disable git tracking for the .gitattributes
+.gitattributes
 

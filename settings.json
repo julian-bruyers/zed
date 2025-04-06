@@ -1,16 +1,89 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
+//-----------------------------------------------------------//
+//           Julian Bruyers – Personal Zed Settings          //
+//                                                           //
+// Further information: https://zed.dev/docs/configuring-zed //
+//-----------------------------------------------------------//
+
 {
+  // Default theme (the WBTC theme must be installed)
+  "theme": "One Dark",
+
+  // Default tab size
+  "tab_size": 2,
+
+  // Default extensions
+  "auto_install_extensions": {
+    "html": true,
+    "dockerfile": true,
+    "docker-compose": false
+  },
+
+  // Autosave settings
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 3500
+    }
+  },
+
+  // Always start Zed with a fresh, empty editor
+  "restore_on_startup": "none",
+
+  // Auto-scroll when clicking near the top/bottom edge
+  "autoscroll_on_clicks": false,
+
+  // Currently only works on macOS
+  "auto_update": true,
+
+  // Ask for confirmation before quitting Zed
+  "confirm_quit": false,
+
+  // Always show the tab close button (options: hover, always, hidden)
+  "show_close_button": "always",
+
+  // Basic keybinding layout (VSCode, Atom, JetBrains, SublimeText, TextMate, None)
   "base_keymap": "JetBrains",
-  "theme": "Solarized Dark",
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "assistant": { "enabled": true, "version": "2" },
-  "tab_size": 2
+
+  // Cursor style (bar, block, underline, hollow)
+  "cursor_shape": "bar",
+
+  // Show file icons next to files in the explorer
+  "file_icons": true,
+
+  // Show untracked changes in version control
+  "git_status": true,
+
+  // Automatically insert matching opening/closing brackets
+  "use_autoclose": true,
+
+  // Automatically convert emoji shortcodes like `:wave:` to actual emojis
+  "auto_replace_emoji_shortcode": true,
+
+  // Default UI font
+  "ui_font_family": "Zed Plex Sans",
+  "ui_font_size": 18,
+  "ui_font_weight": 400,
+  "buffer_line_height": {
+    "custom": 1.65
+  },
+
+  // Editor font settings
+  "buffer_font_family": "Zed Plex Mono",
+  "buffer_font_size": 17,
+  "buffer_font_weight": 400,
+
+  // Enable Vim keybindings and motions
+  "vim_mode": false,
+
+  // Enable the AI assistant
+  "assistant": {
+    "enabled": true, "version": "2"
+  },
+
+  // Settings for calls within Zed
+  "calls": {
+    // Don't mute the microphone when joining a call
+    "mute_on_join": false,
+    // Don't share the project automatically when joining a channel
+    "share_on_join": false
+  }
 }

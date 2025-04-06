@@ -1,0 +1,8 @@
+# Disable git tracking for JetBrains editors and Visual Studio Code
+*.xml
+*.iml
+.vscode
+
+# Disable git tracking for the Zed development_credentials file in the Zed config directory
+development_credentials
+
